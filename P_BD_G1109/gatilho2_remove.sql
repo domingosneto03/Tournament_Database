@@ -1,0 +1,8 @@
+.mode columns
+.header on
+.nullvalue NULL
+
+PRAGMA foreign_keys = ON;
+
+DROP TRIGGER IF EXISTS PodeComprar;
+DROP TRIGGER IF EXISTS Compra;
